@@ -42,8 +42,7 @@ public class Sueldo_equipos {
         Jugador itemJugador = new Jugador();
         // instacia para trael el archivo json
         JSONParser parser = new JSONParser();
-        // se valida que el proceso no falle, por ejemplo que no encuentre el archivo o que los datos de cada objeto de 
-        //la lista jugador con traer el archivo json cuadren con lo que se espera. 
+        
         try {
             // se hace la busqueda del archivo json.
             Object obj = parser.parse(new FileReader("C:\\Users\\FYR\\Downloads\\Exa_Sueldo_Jugadores\\jugadores.json"));
